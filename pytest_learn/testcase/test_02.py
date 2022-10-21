@@ -1,5 +1,9 @@
+import pytest
+
+
 class Test02:
 
+    @pytest.mark.smoke
     def test_03(self):
         print('03')
 
