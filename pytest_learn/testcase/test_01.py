@@ -25,6 +25,6 @@ class Test01:
         print('03')
 
     @pytest.mark.run(order=1)
-    def test_04(self):
+    def test_04(self, my_fixture):
         # sleep(3)
         print("04")
