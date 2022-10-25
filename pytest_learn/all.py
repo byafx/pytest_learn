@@ -1,4 +1,4 @@
 import pytest
 
 if __name__ == '__main__':
-    pytest.main(['./testcase'])
+    pytest.main(['./testcase/test_api.py'])
